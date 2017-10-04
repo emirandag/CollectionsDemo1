@@ -4,8 +4,8 @@
 package org.escoladeltreball.collectionsdemo1;
 
 import java.util.List;
-import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 
 /**
  * @author iaw26540084
@@ -17,7 +17,7 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		List<String> list = new ArrayList();
+		List<String> list = new LinkedList<>();
 		
 		
 		list.add("Alpha");
